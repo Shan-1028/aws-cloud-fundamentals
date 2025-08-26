@@ -1,0 +1,26 @@
+aws-cloud-fundamentals/
+│
+├── ec2/                  # Launching, connecting, user-data, AMIs, security groups
+├── s3/                   # Buckets, static hosting, versioning, lifecycle policies
+├── iam/                  # Users, roles, policies, MFA setup
+├── vpc/                  # Subnets, route tables, NAT, internet gateways
+├── rds/                  # Setting up MySQL/Postgres, backups, security groups
+├── lambda/               # Serverless functions, triggers, layers
+├── dynamodb/             # NoSQL basics, CRUD operations, indexes
+├── cloudformation/       # Templates, stacks, infra as code
+├── terraform/            # IaC with Terraform (if you practice it)
+├── cloudwatch/           # Metrics, logs, alarms
+├── sns-sqs/              # Notifications & messaging queues
+├── ecr-ecs-eks/          # Containers: Docker registry, ECS, Kubernetes (EKS)
+├── codepipeline/         # CI/CD with CodeBuild, CodeDeploy, CodePipeline
+├── cloudfront/           # CDN, caching static content
+├── route53/              # Domain registration, hosted zones, DNS records
+├── elastic-beanstalk/    # Deploying web apps
+├── cloud9/               # AWS IDE for hands-on dev
+├── budgets-billing/      # Budgets, cost explorer, billing alerts
+│
+└── projects/             # End-to-end mini projects combining multiple services
+    ├── static-website-s3-cloudfront/
+    ├── ci-cd-pipeline-demo/
+    └── serverless-api-lambda-dynamodb/
+
