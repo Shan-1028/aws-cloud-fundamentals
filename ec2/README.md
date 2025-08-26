@@ -18,3 +18,23 @@ This project demonstrates how to **launch an EC2 instance, install Nginx, and ho
 ### 2. Connect to the Instance
 ```bash
 ssh -i your-key.pem ec2-user@<EC2-Public-IP>
+```
+
+
+📂 Files in this Project
+
+user-data.sh → Script to auto-install Nginx and deploy a sample page
+
+index.html → Optional static page you can deploy
+
+README.md → Documentation of the project
+
+🎯 Key Learnings
+
+Launching EC2 with Amazon Linux 2
+
+Using User Data for automation
+
+Configuring Security Groups for web access
+
+Hosting a basic website with Nginx on EC2
