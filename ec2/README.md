@@ -25,7 +25,7 @@ Open your browser and go to:
 http://<EC2-Public-IP>
 ```
 
-📂 Files in this Project
+### 📂 Files in this Project
 
 - user-data.sh → Script to auto-install Nginx and deploy a sample page
 
@@ -33,7 +33,7 @@ http://<EC2-Public-IP>
 
 - README.md → Documentation of the project
 
-🎯 Key Learnings
+### 🎯 Key Learnings
 
 - Launching EC2 with Amazon Linux 2
 
@@ -43,4 +43,4 @@ http://<EC2-Public-IP>
 
 - Hosting a basic website with Nginx on EC2
 
-⚠️ NOTE: Delete the instance right after you finish creating the EC2 instance to avoid unexpected charges.
+### ⚠️ NOTE: Delete the instance right after you finish creating the EC2 instance to avoid unexpected charges.
