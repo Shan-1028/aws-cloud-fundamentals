@@ -38,3 +38,27 @@ Go to **Permissions → Bucket Policy**, and paste (replace `your-bucket-name`):
     }
   ]
 }
+```
+
+### 5. Access Your Website
+Copy the Endpoint URL from Static Website Hosting section.
+Example:
+```bash
+http://my-s3-hands-on-demo.s3-website-us-east-1.amazonaws.com
+```
+
+📂 Files in this Project
+
+index.html → The static web page hosted on S3
+
+README.md → Documentation of the project
+
+🎯 Key Learnings
+
+Creating S3 bucket for website hosting
+
+Uploading and serving static files
+
+Configuring bucket policy for public access
+
+Hosting a simple static site using S3
