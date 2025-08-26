@@ -18,6 +18,7 @@ This project demonstrates how to **launch an EC2 instance, install Nginx, and ho
 ### 2. Connect to the Instance
 ```bash
 ssh -i your-key.pem ec2-user@<EC2-Public-IP>
+<<<<<<< HEAD
 ```
 
 
@@ -38,3 +39,6 @@ Using User Data for automation
 Configuring Security Groups for web access
 
 Hosting a basic website with Nginx on EC2
+=======
+
+>>>>>>> 30b7a2c4959f6033dc510c72daf7f4fc25130667
