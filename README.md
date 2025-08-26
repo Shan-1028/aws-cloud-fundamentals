@@ -3,6 +3,9 @@
 This repository documents my hands-on practice with **AWS Cloud services**.  
 Each folder contains scripts, notes, and examples that I worked on while learning.
 
+> 🔄 This repo is **actively being updated** and is **not finished yet**. 
+
+
 ---
 
 ## 📂 Topics Covered
