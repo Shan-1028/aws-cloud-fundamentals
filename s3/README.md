@@ -48,13 +48,13 @@ Example:
 http://my-s3-hands-on-demo.s3-website-us-east-1.amazonaws.com
 ```
 
-📂 Files in this Project
+### 📂 Files in this Project
 
 - index.html → The static web page hosted on S3
 
 - README.md → Documentation of the project
 
-🎯 Key Learnings
+### 🎯 Key Learnings
 
 - Creating S3 bucket for website hosting
 
