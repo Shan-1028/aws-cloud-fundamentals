@@ -19,11 +19,3 @@ This project demonstrates how to **launch an EC2 instance, install Nginx, and ho
 ```bash
 ssh -i your-key.pem ec2-user@<EC2-Public-IP>
 
-
-📂 Files in this Project
-
-user-data.sh → Script to auto-install Nginx and deploy a sample page
-
-index.html → Optional static page you can deploy
-
-README.md → Documentation of the project
