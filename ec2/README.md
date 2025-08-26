@@ -19,7 +19,11 @@ This project demonstrates how to **launch an EC2 instance, install Nginx, and ho
 ```bash
 ssh -i your-key.pem ec2-user@<EC2-Public-IP>
 ```
-
+### 3. Verify Nginx
+Open your browser and go to:
+```bash
+http://<EC2-Public-IP>
+```
 
 📂 Files in this Project
 
