@@ -49,16 +49,16 @@ http://my-s3-hands-on-demo.s3-website-us-east-1.amazonaws.com
 
 📂 Files in this Project
 
-index.html → The static web page hosted on S3
+- index.html → The static web page hosted on S3
 
-README.md → Documentation of the project
+- README.md → Documentation of the project
 
 🎯 Key Learnings
 
-Creating S3 bucket for website hosting
+- Creating S3 bucket for website hosting
 
-Uploading and serving static files
+- Uploading and serving static files
 
-Configuring bucket policy for public access
+- Configuring bucket policy for public access
 
-Hosting a simple static site using S3
+- Hosting a simple static site using S3
