@@ -41,7 +41,8 @@ Go to **Permissions → Bucket Policy**, and paste (replace `your-bucket-name`):
 ```
 
 ### 5. Access Your Website
-Copy the Endpoint URL from Static Website Hosting section.
+Copy the **Endpoint URL** from Static Website Hosting section.
+
 Example:
 ```bash
 http://my-s3-hands-on-demo.s3-website-us-east-1.amazonaws.com
