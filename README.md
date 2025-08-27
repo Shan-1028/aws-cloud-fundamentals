@@ -24,6 +24,7 @@ Each folder contains scripts, notes, and examples that I worked on while learnin
 1. Browse into each folder to see related scripts (e.g., `.sh`, `.yaml`) and documentation (`README.md`).
 2. Follow the step-by-step instructions to reproduce the hands-on setup.
 3. Modify scripts or configs to experiment further.
+4. Download the zip file and extract so you can watch the short demo video for each hands-on tasks.
 
 ---
 
