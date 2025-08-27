@@ -40,8 +40,8 @@ Go to **Permissions → Bucket Policy**, and paste (replace `your-bucket-name`):
 }
 ```
 ### 🔹 What the Bucket Policy Does
+That JSON bucket policy is basically saying:
 
-- That JSON bucket policy is basically saying:
 - Effect: Allow → We are granting permissions.
 - Principal: * → Everyone (public, not just your AWS account).
 - Action: s3:GetObject → The only thing people can do is read (download) objects.
