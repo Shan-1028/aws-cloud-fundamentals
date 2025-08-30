@@ -13,8 +13,9 @@ This project demonstrates how to create a **secure IAM configuration** in AWS wi
 
 ### 🔍 How to Check if AWS CLI is Configured
 1. Verify AWS CLI Installation
+```bash
 aws --version
-
+```
 
 If installed → returns version (e.g., aws-cli/2.15.0).
 
@@ -22,25 +23,29 @@ If not installed → follow AWS CLI installation guide
 .
 
 2. Check Active Configuration
+```bash
 aws configure list
-
+```
 
 Shows the active profile, access key, region, and output format.
 
 If unconfigured → credentials show as None.
 
 3. List All Profiles
+```bash
 aws configure list-profiles   # (AWS CLI v2)
-
+```
 
 Or manually check config files:
-
+```bash
 cat ~/.aws/config        # Regions & output formats
 cat ~/.aws/credentials   # Access keys (⚠️ keep secret!)
+```
 
 4. Test with a Simple Command
+```bash
 aws sts get-caller-identity
-
+```
 
 ### ✅ Success → Returns AWS account ID, user ARN, and identity info.
 
@@ -49,12 +54,11 @@ aws sts get-caller-identity
 5. Next Steps if Not Configured
 
 Run:
-
+```bash
 aws configure
-
+```
 
 → Provide Access Key ID, Secret Key, Default region, and Output format.
-
 
 ---
 
